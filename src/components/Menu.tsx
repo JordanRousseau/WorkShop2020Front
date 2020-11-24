@@ -12,7 +12,7 @@ import {
 
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import { archiveOutline, archiveSharp, bookmarkOutline, heartOutline, heartSharp, mailOutline, mailSharp, paperPlaneOutline, paperPlaneSharp, trashOutline, trashSharp, warningOutline, warningSharp } from 'ionicons/icons';
+import { archiveOutline, archiveSharp, bookmarkOutline, settingsOutline, settingsSharp, homeOutline, homeSharp, peopleOutline, peopleSharp, downloadOutline,downloadSharp} from 'ionicons/icons';
 import './Menu.css';
 
 interface AppPage {
@@ -24,22 +24,16 @@ interface AppPage {
 
 const appPages: AppPage[] = [
   {
-    title: 'Inbox',
-    url: '/page/Inbox',
-    iosIcon: mailOutline,
-    mdIcon: mailSharp
+    title: 'Home',
+    url: '/page/Home',
+    iosIcon: homeOutline,
+    mdIcon: homeSharp
   },
   {
-    title: 'Outbox',
-    url: '/page/Outbox',
-    iosIcon: paperPlaneOutline,
-    mdIcon: paperPlaneSharp
-  },
-  {
-    title: 'Favorites',
-    url: '/page/Favorites',
-    iosIcon: heartOutline,
-    mdIcon: heartSharp
+    title: 'Import',
+    url: '/page/Import',
+    iosIcon: downloadOutline,
+    mdIcon: downloadSharp
   },
   {
     title: 'Archived',
@@ -48,17 +42,18 @@ const appPages: AppPage[] = [
     mdIcon: archiveSharp
   },
   {
-    title: 'Trash',
-    url: '/page/Trash',
-    iosIcon: trashOutline,
-    mdIcon: trashSharp
+    title: 'Users',
+    url: '/page/Users',
+    iosIcon: peopleOutline,
+    mdIcon: peopleSharp
   },
   {
-    title: 'Spam',
-    url: '/page/Spam',
-    iosIcon: warningOutline,
-    mdIcon: warningSharp
+    title: 'Settings',
+    url: '/page/Settings',
+    iosIcon: settingsOutline,
+    mdIcon: settingsSharp
   }
+  
 ];
 
 const labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
