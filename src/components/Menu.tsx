@@ -24,7 +24,7 @@ interface AppPage {
 
 const appPages: AppPage[] = [
   {
-    title: 'Home',
+    title: 'Accueil',
     url: '/page/Home',
     iosIcon: homeOutline,
     mdIcon: homeSharp
@@ -36,19 +36,19 @@ const appPages: AppPage[] = [
     mdIcon: downloadSharp
   },
   {
-    title: 'Archived',
-    url: '/page/Archived',
+    title: 'Consultation',
+    url: '/page/Consult',
     iosIcon: archiveOutline,
     mdIcon: archiveSharp
   },
   {
-    title: 'Users',
+    title: 'Utilisateurs',
     url: '/page/Users',
     iosIcon: peopleOutline,
     mdIcon: peopleSharp
   },
   {
-    title: 'Settings',
+    title: 'Paramètres',
     url: '/page/Settings',
     iosIcon: settingsOutline,
     mdIcon: settingsSharp
