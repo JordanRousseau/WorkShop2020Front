@@ -23,10 +23,10 @@ const Import: React.FC = () => {
 
     let formData = new FormData();
 
-    formData.append("file", values.current.file, values.current.file.name);
+    formData.append("files", values.current.file, values.current.file.name);
 
     try {
-      const response = await fetch(`${API_URL}/Import`, {
+      const response = await fetch(`${process.env.REACT_APP_API_URL}/Import`, {
         method: "POST",
         body: formData,
       });
