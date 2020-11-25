@@ -1,4 +1,5 @@
 import React from 'react';
+import Import from '../pages/Import';
 import ConsultContainer from './ConsultContainer';
 import DocumentContainer from './DocumentContainer';
 import './ExploreContainer.css';
@@ -14,7 +15,9 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
   }else if (name==='Consult'){
     return(<ConsultContainer></ConsultContainer>);
   }else if (name==='Documents'){
-    return(<DocumentContainer type={name} ></DocumentContainer>);
+    return(<DocumentContainer type={name}></DocumentContainer>);
+  }else if (name==='Import'){
+    return(<Import></Import>);
   }else{
     return (
       <div className="container">

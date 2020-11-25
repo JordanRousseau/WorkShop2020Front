@@ -1,6 +1,6 @@
 import { Camera } from '@ionic-native/camera';
 import React, { useRef } from 'react';
-import { IonButton, IonHeader, IonContent, IonInput, IonPage, IonTitle, IonToolbar, IonLabel,IonItem } from '@ionic/react';
+import { IonButton, IonHeader, IonContent, IonPage, IonTitle, IonToolbar, IonLabel,IonItem } from '@ionic/react';
 
 interface InternalValues {
   file: any;
