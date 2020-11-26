@@ -1,5 +1,5 @@
 import React from 'react';
-import Import from '../pages/Import';
+import Import from './ImportContainer';
 import ConsultContainer from './ConsultContainer';
 import DocumentContainer from './DocumentContainer';
 import './ExploreContainer.css';
