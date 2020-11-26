@@ -16,7 +16,7 @@ const ConsultContainer: React.FC<ContainerProps> = () => {
                   <IonCardTitle>Devis</IonCardTitle>
                 </IonCardHeader>
                   <IonCardContent>
-                  <IonItem routerLink="/page/Documents">
+                  <IonItem routerLink="/page/Documents=Devis">
                     <IonLabel>
                       Consulter les Devis
                     </IonLabel>
@@ -29,7 +29,7 @@ const ConsultContainer: React.FC<ContainerProps> = () => {
                 <IonCardHeader>
                   <IonCardTitle>Commande</IonCardTitle>
                 </IonCardHeader>
-                  <IonItem routerLink="/page/Documents">
+                  <IonItem routerLink="/page/Documents=Commande">
                     <IonLabel>
                       Consulter les bon de Commande
                     </IonLabel>
@@ -42,7 +42,7 @@ const ConsultContainer: React.FC<ContainerProps> = () => {
                   <IonCardTitle>Livraison</IonCardTitle>
                 </IonCardHeader>
                   <IonCardContent>
-                  <IonItem routerLink="/page/Home">
+                  <IonItem routerLink="/page/Documents=Livraison">
                     <IonLabel>
                       Consulter les bon de Livraison
                     </IonLabel>
@@ -58,7 +58,7 @@ const ConsultContainer: React.FC<ContainerProps> = () => {
                   <IonCardTitle>Facture</IonCardTitle>
                 </IonCardHeader>
                   <IonCardContent>
-                  <IonItem routerLink="/page/Home">
+                  <IonItem routerLink="/page/Documents=Facture">
                     <IonLabel>
                       Consulter les Facture
                     </IonLabel>
@@ -72,7 +72,7 @@ const ConsultContainer: React.FC<ContainerProps> = () => {
                   <IonCardTitle>Paie</IonCardTitle>
                 </IonCardHeader>
                   <IonCardContent>
-                  <IonItem routerLink="/page/Home">
+                  <IonItem routerLink="/page/Documents=Paie">
                     <IonLabel>
                       Consulter les fiches de Paie
                     </IonLabel>
@@ -86,7 +86,7 @@ const ConsultContainer: React.FC<ContainerProps> = () => {
                   <IonCardTitle>Réunion</IonCardTitle>
                 </IonCardHeader>
                   <IonCardContent>
-                  <IonItem routerLink="/page/Home">
+                  <IonItem routerLink="/page/Documents=Réunion">
                     <IonLabel>
                       Consulter les notes de Réunion
                     </IonLabel>
@@ -102,7 +102,7 @@ const ConsultContainer: React.FC<ContainerProps> = () => {
                   <IonCardTitle>Spécification</IonCardTitle>
                 </IonCardHeader>
                   <IonCardContent>
-                  <IonItem routerLink="/page/Home">
+                  <IonItem routerLink="/page/Documents=Spécification">
                     <IonLabel>
                       Consulter les notes de Spécification
                     </IonLabel>
