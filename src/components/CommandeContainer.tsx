@@ -43,7 +43,7 @@ const CommandeContainer: React.FC<DocumentContainerProps> = ({  }) => {
             return (
               <IonCard>
                 <IonCardHeader>
-                  <IonCardTitle>Devis : {document.label}</IonCardTitle>
+                  <IonCardTitle>Bon de commande : {document.label}</IonCardTitle>
                 </IonCardHeader>
                   <IonCardContent>
                   <IonItem href={document.url}>

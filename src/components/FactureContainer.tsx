@@ -43,7 +43,7 @@ const FactureContainer: React.FC<DocumentContainerProps> = ({  }) => {
             return (
               <IonCard>
                 <IonCardHeader>
-                  <IonCardTitle>Devis : {document.label}</IonCardTitle>
+                  <IonCardTitle>Facture : {document.label}</IonCardTitle>
                 </IonCardHeader>
                   <IonCardContent>
                   <IonItem href={document.url}>

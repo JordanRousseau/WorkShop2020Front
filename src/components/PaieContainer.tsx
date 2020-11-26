@@ -43,7 +43,7 @@ const PaieContainer: React.FC<DocumentContainerProps> = ({  }) => {
             return (
               <IonCard>
                 <IonCardHeader>
-                  <IonCardTitle>Devis : {document.label}</IonCardTitle>
+                  <IonCardTitle>Fiche de paies : {document.label}</IonCardTitle>
                 </IonCardHeader>
                   <IonCardContent>
                   <IonItem href={document.url}>
