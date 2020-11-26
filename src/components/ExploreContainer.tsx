@@ -1,5 +1,5 @@
 import React from 'react';
-import Import from '../pages/Import';
+import Import from './ImportContainer';
 import CommandeContainer from './CommandeContainer';
 import ConsultContainer from './ConsultContainer';
 import DevisContainer from './DevisContainer';
